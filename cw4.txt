@@ -1,0 +1,121 @@
+x y + z s t ^ * v w - + /
+(x+y)/(z*(s^t)+(v-w))
+/+xy+*z^st-vw
+
+1.
+(x+y)/((z*(s^t))+(v-w))
+x y + z s t ^ * v w - + /
+/+xy+*z^st-vw
+(x+y)/(z*s^t+v-w)
+
+2
+
+a
+
+(x-(z+y))/((v*w)%t)
+/-x+zy%*vwt
+xzy+-vw*t%/
+
+    
+        t
+    %
+            v
+        *
+            w
+/   
+            z
+        +
+            y
+    -
+        x
+
+b
+%*xz-y/v^wt
+
+x*z%(y-v/w^t)
+
+xz*yvwt^/-%
+
+                t
+            ^
+                w
+        /
+            v
+    -
+        y
+%
+        z
+    *
+        x
+
+c
+
+xz-yv/*w+t% odrwotna notacja polska
+((x-z)*(y/v)+w)%t   algebraiczna
+%+*-xz/yvwt notacja polska
+
+    t
+%
+        w
+    +
+                v
+            /
+                y
+        *
+                2
+            -
+                x
+
+3.
+a.
+((m+n)/o+(p-q)*r)/s     stos
+
+mn+o/pq-r*+s/
+
+b.
+((m-n)^(o+p)/(q+r)+s)*t
+m n - o p + ^ q r + / s + t *
+
+4.
+a.  
+mno-p*+q/r-                 stos
+                            m-
+                            n-
+                            o-  (o<->n)
+                                (n-o)
+                            p-
+                                ((n-o)*p)
+                                (m+(n-o)*p)
+                            q-
+                                ((m+(n-o)*p)/q)
+                            r-
+                                ((m+(n-o)*p)/q)-
+
+(m+(n-o)*p)/q-r
+
+b.
+omn+*pq-%r/             stos
+                        o
+                        m-
+                        n-
+                            (m-n)
+                            ((m-n)*o)
+                        p-
+                        q-
+                            (p-q)
+                            (((m-n)*o)%(p-q))
+                        r-
+                            (((m-n)*o)%(p-q))/r
+(o*(m+n)%(p-q))/r
+
+5.
+
+a
+7 4 + 1/89-2*+6/
+                        stos
+                        9
+                        
+b
+4 3 + 9 -
+                        stos
+                        -2
