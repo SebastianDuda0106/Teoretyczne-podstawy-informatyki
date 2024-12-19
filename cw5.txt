@@ -1,0 +1,28 @@
+sigma duża-znak alfabetu
+mała sigma - znak pustego łańcucha
+Sigma z plusem - wszystkie kombinacje oprócz pustego
+Sigma z *gwiazdką - wszystkie kombinacje alfabetu
+sigma z liczbą - kombinacje z łańcuchu o długości liczby
+
+języki formalne
+a-symbol terminalny
+A,B - symbole nieterminalne
+alfa beta - ciąg znaków terminalnych i lub nieterminalnych
+gama - nie pusty ciąg znaków terminalnych i lub nieterminalnych
+
+eduinf.waw.pl/inf/prg/003_mt/0003.php
+
+negacja bitowa
+0,q0,1,q0,L 
+1,q0,0,q0,L 
+?,q0,1,q1,L
+
+dodawanie 1 do binarnej
+0,q0,0,q0,R
+1,q0,1,q0,R
+_,q0,_,q1,L 
+ ,q0, ,q1,L 
+0,q1,1,q2,L 
+1,q1,0,q1,L 
+ ,q1,1,q2,L
+?,q1,1,q2,L
