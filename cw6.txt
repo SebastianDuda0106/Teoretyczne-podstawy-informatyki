@@ -1,0 +1,76 @@
+1.
+    2(drógi) typ gramatyki
+    1. symbole nieterminalne: S
+    2. symbole terminalne: a,b,ε(znak pusty)
+    3. symbol startowy: S
+    4. produkcje:
+        S->aSa
+        S->bSb
+        S->ε
+    
+    S->bSb S->aSa S->ε
+    S-->bSb-->baSab-->baab (4 znakowy ciąg należący do tego języka)
+    
+    6:babbab
+    8:babaabab
+    10:bbbbaabbbb
+
+2.  
+    3(trzeci) typ gramatyki
+    1.symbole nieterminalne: S,A
+    2.symbole terminalne: a,b,c
+    3.symbol startowy: S
+    4.znak pusty ε
+    5.produkcje:
+        S->aS|bA
+        A->cA|ε
+
+    aaabcc
+
+    S->aS S->aS S->aS  S->bA   A->cA    A->cA     A->ε
+    S-->aS-->aaS-->aaaS-->aaabA-->aaabcA-->aaabccA-->aaabcc
+
+    a*bc*
+
+    6.png
+
+        S   A   E
+    a   S   X   X
+    b   A   X   X
+    c   X   A   X
+    ε   X   E   X
+
+3.
+    6.3.png
+
+    aaacdb TAK
+    ababacdaaac Tak
+    abcdb   Nie, nie można z 'b' do 'c'
+    acda Nie, kończy się w S1
+    acdbdb  Tak
+
+        S1  S2  S3  S4
+    a   S2  S2  S1  X  
+    b   X   S1  S4  X
+    c   X   S4  X   X
+    d   X   X   X   S3
+
+4.
+        S1  S2  S3
+    0   S1  S3  S2
+    1   S2  S1  S3
+
+    6.4.png
+
+    11001010    nie kończy się na S2
+    10101100    nie kończy się na S2
+    11011010    nie kończy się na S3
+    11001100    Tak
+    
+    bin     dec
+    0000    0
+    0011    3    
+    0110    6
+    1001    9
+    1100    12
+    1111    15
