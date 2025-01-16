@@ -1,0 +1,45 @@
+
+HELLO WORLD!
+    .,q0,H,q1,R
+    .,q1,E,q2,R
+    .,q2,L,q3,R
+    .,q3,L,q4,R
+    .,q4,O,q5,R
+    .,q5, ,q6,R
+    .,q6,W,q7,R
+    .,q7,O,q8,R
+    .,q8,R,q9,R
+    .,q9,L,q10,R
+    .,q10,D,q11,R
+    .,q11, ,q69,R
+
+Negacja bitowa
+    1,q0,0,q0,R
+    0,q0,1,q0,R
+    ,q0, ,q0,L
+
+    negacja.png
+
+
+        q_0     q_1
+    0   q_0     X
+    1   q_0     X
+    .   q_1     X
+
+        q_0     q_1
+    0   1       X
+    1   0       X
+    .   .       X
+
+regularne
+1.
+    r"\b\d{2}-\d{3}\b"gm - kod pocztowy
+2.
+    r".[A-Z].\\.w"gm    r"^.[A-Z].\\.w$"gm
+3.
+    (\d{2} )?\d{3}-\d{4}
+    (\d{2} )?\d{3}-\d{4}|\d{3}-\d{3}-\d{3}
+    r"(\+\d{2} )?((\d{2} )?\d{3}-\d{4}|\d{3}-\d{3}-\d{3})"gm
+4.
+    r"pit|spot|spate|slap two|respite"gm
+    r".*@.*(.com|.pl)"gm - mail
